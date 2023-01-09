@@ -70,4 +70,6 @@ setup commands -
 build your own package commands-
 ```python setup.py sdist bdist_wheel```
 
+Follow pep8 styling guide for python. 
+Use flake8 to check if the code does not follow the style guide.
 
