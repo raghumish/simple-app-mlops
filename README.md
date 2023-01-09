@@ -46,4 +46,11 @@ To commit one-liner update
 
 ```git add . && git commit -m "update Readme.md"```
 
+To run the pipeline and checking scores
+
+```dvc repro```
+
+```dvc metrics show```
+
+```dvc metrics diff```
 
