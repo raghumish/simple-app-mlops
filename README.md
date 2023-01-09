@@ -1,35 +1,48 @@
 Create env
-conda create -n wineq python=3.7 -y
+
+```conda create -n wineq python=3.7 -y```
 
 Activate env
-conda activate wineq
+
+```conda activate wineq```
 
 Create requirement.txt
-
 Install the requirements
-pip install -r requirement.txt
 
-Download data for spam filtering
+```pip install -r requirement.txt```
+
+Download data for wine data quality
 winequality.csv
 
-git init
+Initialize all the files
 
-dvc init
+```git init```
 
-dvc add data_given/winequality.csv
+```dvc init```
 
-git add .
+```dvc add data_given/winequality.csv```
 
-git commit -m "first commit"
+Get ready to commit to git
 
-one-liner update
-git add . && git commit -m "update Readme.md"
+```git add .```
 
-git remote add origin https://github.com/raghumish/simple-app-mlops.git
+```git commit -m "first commit"```
 
-git branch -M main
+First time use these commands
 
-git push -u origin main
+```git remote add origin https://github.com/raghumish/simple-app-mlops.git```
+
+```git branch -M main```
+
+For periodic updates/ one-liner update use the git add .
+
+Then run the git push
 
 Choose token as password for push origin command
+
+```git push -u origin main```
+
+To commit one-liner update
+
+```git add . && git commit -m "update Readme.md"```
 
