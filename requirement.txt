@@ -3,3 +3,6 @@ dvc[gdrive]
 sklearn
 pandas
 pyyaml
+pytest
+tox
+numpy
