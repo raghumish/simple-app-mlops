@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import os
 import numpy as np
 from prediction_service import prediction
+import yaml
 
 
 webapp_root = "webapp"
